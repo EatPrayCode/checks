@@ -1,0 +1,5 @@
+$projectx-primary: mat-palette($mat-indigo, 800, 300, 900);
+$projectx-accent: mat-palette($mat-light-blue);
+$projectx-warn: mat-palette($mat-pink, 600);
+
+$projectx-theme: mat-light-theme($projectx-primary, $projectx-accent, $projectx-warn);
