@@ -37,7 +37,8 @@ export class AppComponent implements OnInit {
     { link: 'about', label: 'projectx.menu.about' },
     { link: 'feature-list', label: 'projectx.menu.features' },
     { link: 'games', label: 'projectx.menu.games' },
-    { link: 'examples', label: 'projectx.menu.examples' }
+    { link: 'examples', label: 'projectx.menu.examples' },
+    { link: '2048', label: 'projectx.menu.examples' },
   ];
   navigationSideMenu = [
     ...this.navigation,

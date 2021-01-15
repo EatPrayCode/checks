@@ -27,6 +27,13 @@ const routes: Routes = [
       )
   },
   {
+    path: '2048',
+    loadChildren: () =>
+      import('./features/ng-2048/ng-2048.module').then(
+        (m) => m.Ng2048Module
+      )
+  },
+  {
     path: 'settings',
     loadChildren: () =>
       import('./features/settings/settings.module').then(
