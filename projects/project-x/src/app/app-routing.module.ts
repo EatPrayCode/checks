@@ -20,6 +20,13 @@ const routes: Routes = [
       )
   },
   {
+    path: 'games',
+    loadChildren: () =>
+      import('./features/games/feature-list.module').then(
+        (m) => m.FeatureListModule
+      )
+  },
+  {
     path: 'settings',
     loadChildren: () =>
       import('./features/settings/settings.module').then(

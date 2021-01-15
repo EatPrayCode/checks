@@ -32,10 +32,11 @@ export class AppComponent implements OnInit {
   version = env.versions.app;
   year = new Date().getFullYear();
   logo = require('../../assets/logo.png').default;
-  languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he'];
+  languages = ['en', 'fr'];
   navigation = [
     { link: 'about', label: 'projectx.menu.about' },
     { link: 'feature-list', label: 'projectx.menu.features' },
+    { link: 'games', label: 'projectx.menu.games' },
     { link: 'examples', label: 'projectx.menu.examples' }
   ];
   navigationSideMenu = [
