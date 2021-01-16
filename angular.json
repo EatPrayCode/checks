@@ -30,7 +30,9 @@
             ],
             "styles": [
               "projects/project-x/src/styles-app-loading.scss",
-              "projects/project-x/src/styles.scss"
+              "projects/project-x/src/styles.scss",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "projects/project-x/src/assets/app.scss"
             ],
             "scripts": []
           },

@@ -47,6 +47,13 @@ const routes: Routes = [
         (m) => m.ExamplesModule
       )
   },
+  // {
+  //   path: 'store',
+  //   loadChildren: () =>
+  //     import('./features/ecommerce/app.module').then(
+  //       (m) => m.EcommerceModule
+  //     )
+  // },
   {
     path: '**',
     redirectTo: 'about'
